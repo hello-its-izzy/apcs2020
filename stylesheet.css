@@ -1,0 +1,46 @@
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  list-style: none;
+}
+
+header li {
+  display: inline;
+  float: left;
+}
+
+.main h1, h2 {
+  text-align: center;
+  color: #55009e;
+}
+
+h1, h2, li, p {
+  font-family: sans-serif;
+}
+
+header h1, h2 {
+  color: #340061;
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: #c688fc;
+  background-color: #55009e;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e1bfff;
+}

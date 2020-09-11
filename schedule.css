@@ -1,0 +1,29 @@
+body{
+font-family: sans-serif;
+color: #55009e;
+}
+.main h1 {
+font-size: 1.3em;
+text-align: center;
+}
+table {
+margin-left: auto;
+margin-right: auto;
+text-align: left;
+border-collapse: collapse;
+}
+tr {
+border: 1px solid #ffffff;
+text-align: center;
+background-color:#ebd7fc;
+}
+th {
+text-align: center;
+color: #ebd7fc;
+background-color: #7106cc;
+padding: 10px;
+}
+
+td {
+  padding: 10px;
+}

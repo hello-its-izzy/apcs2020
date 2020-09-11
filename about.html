@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <style>
+  @import url(stylesheet.css);
+
+  .grid {
+         display: grid;
+         grid-template-rows: auto auto;
+         grid-template-columns: auto auto;
+         grid-template-areas:
+           "top top"
+           "main photo"
+       }
+       header {
+         grid-area: top;
+       }
+       .main {
+         grid-area: main;
+         margin-left: auto;
+         margin-right: auto;
+       }
+       .photo {
+         grid-area: photo;
+         text-align: center;
+         float: center;
+         padding-right: 100px;
+       }
+
+  header h2, h1 {
+    text-align: center;
+    color: #340061;
+  }
+
+  .main h1, h3, h2 {
+    text-align: left;
+    font-family: sans-serif;
+  }
+
+  .main h1 {
+    color: #7f00ed;
+  }
+
+  img {
+    float: right;
+    padding: 10px;
+  }
+  </style>
+  <title> About Me! - Isabel's Website! </title>
+</head>
+<body>
+<header>
+  <h1> Isabel's Website! </h1>
+  <h2> About Isabel </h2>
+<ul>
+  <li> <a href="index.html">Home</a> </li>
+  <li> <a href="portfolio.html">Portfolio</a> </li>
+  <li> <a href="classes.html">My Classes </a> </li>
+  <li> <a href="about.html"> About Me! </a> </li>
+</ul>
+</header>
+<div class="grid">
+<div class="main">
+<h1>Hello! My name is Isabel Epistelomogi! </h1>
+<h2> A Little Bit About Me! </h2>
+<ul>
+  <li> I'm 15 years old and a sophomore! </li>
+  <li> My favorite TV Shows: Agents of Shield & Parks and Rec </li>
+  <li> My Favorite Movies: Mission Impossibles 5 and 6 </li>
+  <li> My Favorite Songs: You Say & Rescue by Lauren Daigle </li>
+</ul>
+<h2> My Interests: </h2>
+  <ul>
+    <li> Computer Science </li>
+    <li> Poltical Science </li>
+    <li> Business and Economics </li>
+  </ul>
+<h2> My Goals: </h2>
+<ul>
+  <li> My Goals For The School Year: </li>
+    <ul>
+        <li> Learn How to Code Proficiency In More CS Languages! </li>
+        <li> Improve and grow my current HTML and CSS skills! </li>
+    </ul>
+  <li> My Goals for Myself </li>
+    <ul>
+      <li> Speak at least one another language </li>
+      <li> Get a Good Score on the ACT </li>
+</ul>
+</div>
+<div class="photo">
+<img src="images/isabel.png" height="500">
+</div>
+</div>
+</body>
+</html>
